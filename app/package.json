@@ -1,0 +1,17 @@
+{
+  "name": "issue_closer",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@octokit/graphql": "^7.0.2",
+    "dotenv": "^16.3.1",
+    "rxjs": "^7.8.1",
+    "webex": "^2.59.4"
+  }
+}
